@@ -54,26 +54,29 @@
 
 ---
 
-## 🤖 지원 모델
+## 🤖 참여자
 
-### 1. Cloud Models
-* **Frontier Tier**
+### 1. 호스트 (문제 출제자)
+    * `google/gemini-3-flash-preview`
+
+### 2. 플레이어
+* **Cloud Models - Frontier Tier**
     * `openai/gpt-5.4`
     * `anthropic/claude-sonnet-4.6`
     * `x-ai/grok-4.20`
-* **Value Tier**
+* **Cloud Models - Value Tier**
     * `deepseek/deepseek-v3.2`
     * `google/gemini-3-flash-preview`
     * `google/gemini-2.5-flash-lite`
     * `x-ai/grok-4.1-fast`
     * `xiaomi/mimo-v2-flash`
-
-### 2. Local Models
-* **Mid-Range (10B+)**
-    * `phi4:14b`, `gemma4:e4b`
-* **Compact (Under 10B)**
-    * `llama3.1:8b`, `exaone3.5:7.8b`, `qwen2.5:7b`, `mistral:7b`
-
+* **Local Models**
+    * `phi4:14b`
+    * `gemma4:e4b`
+    * `llama3.1:8b`
+    * `qwen2.5:7b`
+    * `mistral:7b`
+    * `exaone3.5:7.8b`
 ---
 
 
@@ -109,7 +112,7 @@
 
 ## 🏆 전체 14개 모델 통합 성능 평가 성적표 (테스트 결과)
 
-실제로 진행한 아래의 두 건의 배틀 리포트 로그를 기반으로, **[보편적 플레이어 성능 평가 가이드라인]**에 따라 모든 모델의 지표를 정량화한 결과입니다.
+실제로 진행한 아래의 두 건의 배틀 리포트 로그를 기반으로, **LLM 플레이어 성능 평가 가이드라인**에 따라 모든 모델의 지표를 정량화한 결과입니다.
 
 | 순위 | 모델명 | 구분 | 결과 | 질문 횟수 | 추론 등급 | 비고 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
@@ -149,7 +152,7 @@
 
 ---
 
-# 🏆 클라우드 모델 스무고개 배틀 결과 리포트 (20260411_220106)
+# 🏆 클라우드 모델 스무고개 배틀 리포트 (20260411_220106)
 
 **호스트 모델:** {'provider': 'openrouter', 'name': 'google/gemini-3-flash-preview'}
 
@@ -299,7 +302,7 @@
 
 ---
 
-# 🏆 로컬 모델 스무고개 배틀 결과 리포트 (20260411_220804)
+# 🏆 로컬 모델 스무고개 배틀 결과 (20260411_220804)
 
 **호스트 모델:** {'provider': 'openrouter', 'name': 'google/gemini-3-flash-preview'}
 
