@@ -1,6 +1,7 @@
 # 설정 파일 제외
 .env
 pricing_config.json
+reports/
 # Python 캐시 및 가상환경
 __pycache__/
 .venv/
